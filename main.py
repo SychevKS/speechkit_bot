@@ -7,8 +7,8 @@ from config import API_TOKEN, KEY_SPEECHKIT
 bot = Bot(API_TOKEN)
 dp = Dispatcher(bot)
 
-STT = "https://stt.api.cloud.yandex.net/speech/v1/stt:recognize";
-TTS = "https://tts.api.cloud.yandex.net/speech/v1/tts:synthesize";
+STT = "https://stt.api.cloud.yandex.net/speech/v1/stt:recognize"
+TTS = "https://tts.api.cloud.yandex.net/speech/v1/tts:synthesize"
 
 
 @dp.message_handler(content_types=[types.ContentType.VOICE])
